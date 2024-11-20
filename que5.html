@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    //5. Create a program that counts how many times a specific element appears in an
+    //   array.
+     let arr = [1,2,3,4,5,2,3,2,3,2];
+     let x = 2;
+     let count=0;
+     arr.sort(); // [1,2,2,2,2,3,3,3,4,5]
+    let values = arr.values();
+    for (let num of values){
+        if(num==x){
+            count++;
+        }
+    }
+    console.log(count)
+   
+    </script>
+</body>
+</html>

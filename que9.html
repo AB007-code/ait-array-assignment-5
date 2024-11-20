@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    // 9. Rotate the elements of an array to the right by a specified number of positions.
+    let num = 2;
+    let arr = [1,2,3,4,5];
+    let arr1 = arr.slice(0,num); // slice will make a new brand array from index 0 to num-1
+    // console.log(arr1)
+    // console.log(arr);
+     arr.splice(0,num)  // splice will make a disturb to the existing arr and delete the item form 0 to num-1 and num how much item is deleting.
+    //  console.log(arr);
+     let arr2=arr.concat(arr1)  // concat combines the two array inside the one array datastructure
+    console.log(arr2);
+    </script>
+</body>
+</html>
